@@ -1,0 +1,58 @@
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+h1{
+	color: blue;
+}
+
+
+div{
+background-color: lightgrey;
+width: 33%;
+height: 200px;
+margin: 3px;
+border: 1px solid black;
+padding: 0px;
+float: left;
+}
+
+
+
+
+
+#sectitle {
+margin:1px;
+margin-top: 0px;
+margin-right:0px;
+
+
+width: 100px;
+border: 1px solid black;
+
+border-top:0px;
+border-right:0px;
+
+padding: 4px;
+background-color: yellow;
+float: right;
+}
+
+
+@media screen and (max-width: 992px) {
+  div {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  div {
+    width: 100%;
+  }
+}
+
+
